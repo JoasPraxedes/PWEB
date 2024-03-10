@@ -1,0 +1,111 @@
+/*cores e fontes.*/
+body{
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'Roboto',sans-serif;
+    /*roboto tipo especial de sans-serif*/
+    font-size: 16px;
+}
+
+/*a= links,irá formatar os links*/
+a{
+    color: #333333;
+    text-decoration: underline;
+}
+
+/*passar o mouse em cima de um link*/
+a:hover{
+    color: #000000;
+}
+ 
+/*Seções*/
+header{
+    background-color: #51605f;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+/*nav=navegator*/
+nav{
+    background-color: #b9bccc;
+    float: left;/*flutuação, tipo uma caixa de texto*/
+    width: 100%;
+}
+ 
+nav ul{
+    list-style: none;/*estilo de lista nenhum*/
+    margin-bottom: 0;
+}
+
+nav ul li{
+    /*inline mas pode alterar largura, altura,margem*/
+ 
+    display: inline-block;
+    margin-right: 10px;/*right = direita*/
+}
+ 
+nav ul li a{
+    color: #353333;
+    padding: 5px 10px;
+}
+ 
+nav ul li a:hover{
+    color: #000000;
+}
+
+section{
+    background-color: #ffffff;
+    border: 1px solid #120606;
+    padding: 20px;
+}
+ 
+aside{
+    background-color: #51605f;
+    color: #333333;
+    padding: 20px;
+    margin: 20px 0;
+    float: right;
+    width: 25%;
+}
+ 
+footer{
+    background-color: #51605f;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+ul li{
+    list-style-type: circle;
+    color: #5e616b;
+}
+ 
+ol li{
+    color: #121313;
+}
+ 
+pre{
+    background-color: #e2e2e2;
+    color: #333333;
+    padding: 5px 10px;  
+}
+ 
+img{
+    display: block;
+    /*padrão é inline*/
+    margin: 0 auto;
+    /*margem automatica nos lados para centralizar a imagem*/
+    border: 1px solid #e0e0e0;
+    max-width: 100%;
+    /*imagem não ultrapassar a largura do conteiner*/
+    height: auto;
+    /*mantem a proporção da altura ao redimensionar*/
+}
+ 
+figure figcaption{
+    text-align: center;
+}
+ 
+table{
+    border: 1px solid black;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Página sobre Internet das coisas">
+    <meta name="keywords" content="Iot, Exemplos, Protocolos,Desafio">
+    <meta name="author" content="Joás">
+
+    <title>Iot - Internet das coisas</title>
+
+    <link rel="stylesheet" href="Atividade3.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>IoT - Uma Visão Inicial</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#descricao">Descrição</a></li>
+                <li><a href="#exemplos">Exemplos</a></li>
+                <li><a href="#protocolos">Protocolos</a></li>
+                <li><a href="#desafios">Desafios</a></li>
+                <li><a href="#conclusao">Conclusão</a></li>
+            </ul>
+        </nav>
+
+        <aside>
+            <h2>Recursos Adicionais</h2>
+            <pre>Sites de Referências:</pre>
+            <p>&nbsp;<a href="https://www.totvs.com/blog/inovacoes/aplicacoes-da-internet-das-coisas/">Totvs</a></p>
+            <p>&nbsp;<a href="https://www.alctel.com.br/o-que-e-protocolo-iot-e-como-funciona-na-pratica/">Alctel</a></p>
+            <p>&nbsp;<a href="https://www.oracle.com/br/internet-of-things/what-is-iot/">Oracle</a></p>
+            <p>&nbsp;<a href="https://www.itexperts.com.br/blog/tecnico/definicao-iot/">ITExperts</a></p>
+        </aside>
+
+        <section>
+            <h2 id="descricao">Descrição</h2>
+            <article>
+                <p>
+                    A Internet das Coisas (IoT) descreve a rede de objetos físicos incorporados a sensores, 
+                    software e outras tecnologias com o objetivo de conectar e trocar dados com outros dispositivos 
+                    e sistemas pela internet. Variando de objetos domésticos comuns a ferramentas industriais.
+                </p>
+                <p>
+                    Nos últimos anos, a IoT se tornou uma das tecnologias mais importantes do último século. 
+                    Podendo conectar objetos do cotidiano como os 
+                    eletrodomésticos, carros, babás eletrônicas à Internet por meio de dispositivos incorporados,
+                     sendo possível uma comunicação perfeita entre pessoas, processos e outras coisas.
+                </p>
+                <p>
+                    Por meio da computação de baixo custo, nuvem, big data, análise avançada e tecnologias móveis, 
+                    coisas físicas podem compartilhar e coletar dados com o mínimo de intervenção humana. Nesse mundo 
+                    hiper-conectado, os sistemas digitais podem gravar, monitorar e ajustar cada interação entre itens 
+                    conectados. O mundo físico encontra-se com mundo digital, trabalhando em conjunto.
+                </p>
+
+                <figure>
+                    <img src="imagemIoT.jpeg" title="IoT" alt="Imagem IoT" width="620">
+                    <figcaption><small>Figura 1: IoT</small></figcaption>
+                </figure>
+
+            </article>
+        </section>
+
+        <section>
+            <h2 id="exemplos">Exemplos</h2>
+            <article>
+                <p>
+                    Essa tecnologia já faz parte da rotina dos cidadãos. Ela foi ganhando espaço em objetos 
+                    comuns, alguns exemplos de IoT que mostram como essa novidade está nas coisas rotineiras 
+                    da população. Abaixo se encontra alguns exemplos:
+                </p>
+                <ol>
+                    <li>Smart Homes</li>
+                    <p>
+                        Nas casas inteligentes os eletrônicos se comunicam com um smartphone para permitir 
+                        que o usuário gerencie os ambientes. Geladeiras inteligentes, sistemas de compras 
+                        automáticas, televisão e até mesmo a iluminação. 
+                    </p>
+                    <li>Carros Inteligentes</li>
+                    <p>
+                        Os veículos autônomos estão cada vez mais inteligentes graças à IoT. Com essa tecnologia, 
+                        eles podem se comunicar com o seu dispositivo móvel e trocar dados. Podendo também otimizar 
+                        o trajeto em tempo real e promover uma direção mais segura e econômica para o indivíduo.
+                    </p>
+                    <li>Sensores industriais</li>
+                    <p>
+                        A Internet das Coisas na Indústria 4.0 e na Indústria 5.0 atua como uma das tecnologias 
+                        essenciais. Por meio dos sensores implantados nas máquinas, a fábrica vai se tornando mais
+                         inteligente, sendo capaz de gerenciar as próprias tarefas. Os dados coletados podem ser 
+                         enviados ao sistema de gestão (ERP), por exemplo, para que a performance da produção traga 
+                         impactos positivos também para a gestão da empresa.
+                    </p>
+                </ol>
+            </article>
+        </section>
+
+        <section>
+            <h2 id="protocolos">Protocolos</h2>
+            <article>
+                <p>
+                    Vários protocolos surgiram para atender às diferentes necessidades encontradas 
+                    no desenvolvimento de projetos desse tipo. Um dos principais seria o  protocolo MQTT 
+                    que tem a vantagem de ser mais confiável na transmissão dos dados em redes instáveis, 
+                    além de transportar pacotes leves. Sendo baseado seu funcionamento no modelo de 
+                    publisher-subscriber, no qual o dispositivo é um subscriber que se conecta a um broker 
+                    que recebe os dados do publisher,  que é o dispositivo que envia esses dados.
+                </p>
+                <p>
+                    Desse modo o protocolo CoAP permite que um dispositivo receba dados de vários servidores por meio do 
+                    conceito de API REST. É mais leve e padronizado que o MQTT, sendo recomendado para situações mais 
+                    complexas. Porém, depende de redes mais estáveis para funcionar de acordo. Um outro protocolo com o 
+                    nome de AMQP preza pela segurança, na qual suas principais aplicações incluem gerenciar  as mensagens 
+                    e cuidar da relação entre os componentes que recebem, organizam e armazenam esses dados. Ela é bem mais 
+                    pesada por ser uma solução que trabalha com um alto nível de segurança.
+                </p>
+                <p>
+                    E por fim o Bluetooth sendo muito popularizado graças aos celulares dos anos 2000.  E 
+                    a partir das suas versões 4.0 e 5.0, passou a ser mais adequado para uso em projetos IoT 
+                    pelo foco de ter baixo consumo energético. O alcance depende da classe do módulo, contudo 
+                    costuma variar entre 1 e 240 metros.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h2 id="desafios">Desafios</h2>
+            <article>
+                <p>
+                    Os desafios existem em todas as áreas, e nesse campo de IoT não é tão diferente como as 
+                    pessoas imaginam. Um dos primeiros problemas enfrentados é a segurança de dados, pois há 
+                    uma grande quantidade de aparelhos móveis conectados na rede, e nem todos tem uma certa 
+                    compatibilidade deixando uma brecha para possíveis ataques.
+                </p>
+                <p>
+                    Outro grande problema  é a falta de atualizações nos sistemas operacionais dos 
+                    dispositivos, pois nem sempre um sistema utilizado em um gadget pode estar compatível 
+                    com o sistema principal, e essa compatibilidade pode gerar uma brecha de ataque para
+                     invasores.
+                </p>
+                <p>
+                    Ao considerar a privacidade de um indivíduo, é plausível que, através do monitoramento 
+                    de um dispositivo doméstico, como um forno de micro-ondas, se possa acessar informações 
+                    de segurança, facilitando a entrada não autorizada em uma residência por meio de violações
+                    de sistemas. Por outro lado, existe a questão da segurança de uma empresa, que abrange 
+                    dados sigilosos, estratégicos e operacionais. Esses dados podem estar sujeitos a ataques 
+                    por meio de dispositivos conectados à IoT.
+                </p>
+                <p>
+                    E com a ausência de investimentos representa o principal obstáculo para a implementação
+                     da Internet das Coisas. Os custos de investimentos ainda são elevados e os recursos 
+                     disponíveis são limitados. Portanto, o progresso na implementação ocorre de forma bem 
+                     mais lenta do que as expectativas do mercado.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h2 id="conclusao">Conclusão</h2>
+            <article>
+                <p>
+                    Observa-se que a Internet das Coisas (IoT) está mudando a forma como interagimos com o mundo 
+                    ao nosso redor, conectando objetos físicos à internet e permitindo troca de dados entre eles. Desde 
+                    dispositivos domésticos até sistemas industriais avançados, a IoT promete revolucionar diversas áreas 
+                    da vida cotidiana.
+                </p>
+                <p>
+                    Apesar dos avanços significativos, a implementação total da IoT enfrenta desafios importantes. Um dos 
+                    principais é a segurança dos dados, com a vasta rede de dispositivos conectados representando vulnerabilidades 
+                    para ataques cibernéticos. Além disso, a falta de atualizações nos sistemas operacionais e a compatibilidade 
+                    entre diferentes dispositivos também são obstáculos a serem superados.
+                </p>
+                <p>
+                    No entanto, apesar desses desafios, a IoT continua a crescer e a promover mudanças em diversos setores. Com um 
+                    maior investimento em segurança e compatibilidade, é possível superar esses obstáculos e permitir que a IoT 
+                    atinja seu potencial máximo na transformação digital e melhoria da eficiência dos processos em todo o mundo.
+                </p>
+            </article>
+        </section>
+
+        <footer>
+            <p>&copy;2024 Joás Praxedes Dias. Todos os direitos reservados</p>
+        </footer>
+    </main>
+</body>
+</html>
