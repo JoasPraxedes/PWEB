@@ -18,7 +18,7 @@ while(true){
     else if (opcaoUser === 3 && opcaoPC === 2){
         alert("Usuário escolheu: Pedra\nComputador escolheu: Tesoura\nVocê ganhou!!!");
     } 
-    else if(opcaoPC === 1 && opcaoUser ===3){    
+    else if(opcaoPC === 1 && opcaoUser === 3){    
         alert("Computador escolheu: Papel\nUsuário escolheu: Pedra\nComputador ganhou!!!");
     }
     else if(opcaoPC === 2 && opcaoUser === 1){
